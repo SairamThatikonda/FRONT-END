@@ -1,0 +1,50 @@
+.parent{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+img{
+    
+    width: 80%;
+    height: 40%;
+    border-radius: 50%;
+    border: lightcoral 2px double;
+}
+.parent>div{
+
+    width: auto;
+    border: 3px double black;
+    padding: 2%;
+    margin: 1%;
+}
+h1{
+    color: indigo;
+    text-align: center;
+}
+h2{
+    color: brown;
+    text-align: center;
+}
+button{
+    text-align: center;
+    background-color: grey;
+}
+label{
+    color:darkblue;
+}
+
+
+
+@media only screen  and (min-width:320px) (max-width:480px) {
+.parent{
+    display: flex;
+    flex-direction: coloumn;
+}
+.parent>div{
+    width: 80%;
+}
+}
